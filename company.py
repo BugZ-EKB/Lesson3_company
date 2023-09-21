@@ -235,3 +235,4 @@ for person in personnel_salary_list:
             min_taxes_person['tax'] = person['tax']
             min_taxes_person['name'] = person['name']
 print(f"Минимальный налог компания платит за сотрудника {min_taxes_person['name']}")
+print()
